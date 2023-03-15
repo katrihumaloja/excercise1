@@ -4,4 +4,5 @@ function calculatePrice() {
     let discount = price - (price / 100) * percent;
 
     document.getElementById("newprice").innerHTML = discount;
+    document.getElementById("discountprice").innerHTML = price - discount;
 }
